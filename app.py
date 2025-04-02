@@ -141,11 +141,18 @@
 # count = numbers.count(3)
 # print(count)
 
-n = int(input())
-arr = map(int, input().split())
 
+# #print runnerup
+# n = int(input())
+# arr = map(int, input().split())
 
-unique_scores = set(arr)
-sorted_scores = sorted(unique_scores, reverse=False)
-print(sorted_scores)
-print(sorted_scores[1])
+# unique_scores = set(arr)
+# sorted_scores = sorted(unique_scores, reverse=False)
+# print(sorted_scores)
+# print(sorted_scores[1])
+
+#Reverse the string
+string1 = "Ruturaj Uttarwar"
+string_rev = string1[::-1]
+print(string_rev)
+
