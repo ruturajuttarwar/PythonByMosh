@@ -135,8 +135,17 @@
 # for number in range(0, 100, 2):
 #     print(number)
 
-#Tuples
-numbers = (1, 2, 3, 4, 5, 6)
-#numbers[0] = 3
-count = numbers.count(3)
-print(count)
+# #Tuples
+# numbers = (1, 2, 3, 4, 5, 6)
+# #numbers[0] = 3
+# count = numbers.count(3)
+# print(count)
+
+n = int(input())
+arr = map(int, input().split())
+
+
+unique_scores = set(arr)
+sorted_scores = sorted(unique_scores, reverse=False)
+print(sorted_scores)
+print(sorted_scores[1])
