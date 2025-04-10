@@ -7,7 +7,6 @@ image = cv2.imread(image_path)
 
 # Step 2: Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
 # # Step 3: Apply GaussianBlur to reduce noise and improve edge detection
 blurred_image = cv2.GaussianBlur(gray_image, (5, 5), 0)
 
